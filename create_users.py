@@ -1,11 +1,10 @@
+# API Reference: https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/insert
+# Request Object of Users: https://developers.google.com/admin-sdk/directory/reference/rest/v1/users#User
+
 import json
-
 import csv
-
 import os.path
-
 import argparse
-
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow

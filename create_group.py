@@ -70,5 +70,5 @@ if __name__ == '__main__':
     print("Note: Please use the domain in your email to be @emea.i-leaflets.com!")
     while input("Proceeding will create the group with the name provided as the input.\n Do You Want To Continue? [Proceed/No]") == "Proceed":
         print("Alright, go ahead.")
-        main(args.group)
+        main(args.group, args.email)
         break

@@ -10,7 +10,7 @@ from googleapiclient.discovery import build
 
 def google_quickstart():
     # If modifying these scopes, delete the file token.json.
-    SCOPES = ['https://www.googleapis.com/auth/admin.directory.member']
+    SCOPES = ['https://www.googleapis.com/auth/admin.directory.group']
 
     # Reference sample authentication code from Google: https://developers.google.com/admin-sdk/directory/v1/quickstart/python 
     creds = None
